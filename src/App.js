@@ -13,7 +13,6 @@ class App extends React.Component {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <h1>
           Website under contruction.
         </h1>
@@ -29,6 +28,19 @@ class App extends React.Component {
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
+
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={logo} />
+          <Card.Body>
+            <Card.Title>The Food App</Card.Title>
+            <Card.Text>
+              A web app built with Ruby on Rails. <a href='https://blooming-bastion-17680.herokuapp.com/#/'>Click here to see it</a>
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+
+        <h1>Contact</h1>
     </div>
     
   );
