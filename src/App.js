@@ -16,6 +16,8 @@ class App extends React.Component {
         <h1>
           Website under contruction.
         </h1>
+        <h1>Eventually this site will look amazing!</h1>
+        <h1>Built in react</h1>
       </header>
       <h1>Portfolio</h1>
         <Card style={{ width: '18rem' }}>
